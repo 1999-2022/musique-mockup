@@ -38,7 +38,18 @@
         .navbar-item span {
             font-size: 12px;
             margin-top: 4px;
-            font-family: 'Inter', sans-serif;;
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .playlist-item {
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            font-family: 'Inter', sans-serif;
+            font-weight: bold;
+            margin: 8px 12px;
+            padding: 12px;
+            border-bottom: 1px solid #383b48;
         }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,11 +60,8 @@
 <body>
     <div class="playlist">
         <div class="playlist-item">
-            <div class="playlist-item--container">
-                <img src="cover.jpg" alt />
-                Party!    
-            </div>
-            <i class="fas fa-arrow-right"></i>
+            <span>PLAYLISTS</span>
+            <i class="fas fa-plus" aria-hidden="true"></i>
         </div>
     </div>
     <div class="navbar">
